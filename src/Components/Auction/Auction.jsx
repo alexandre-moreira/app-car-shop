@@ -1,8 +1,8 @@
 import React from 'react'
-
+import './Auction.css'
 const Auction = () => {
   return (
-    <div>Auction</div>
+    <div className='auction'>This is auction section/component</div>
   )
 }
 
