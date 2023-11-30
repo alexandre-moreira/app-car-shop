@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './Components/Navbar/Navbar';
 import './App.css'
-// import Home from './Components/Home/Home';
+import Home from './Components/Home/Home';
 // import Search from './Components/Search/Search';
 // import Trending from './Components/Trending/Trending';
 // import Sellers from './Components/Sellers/Sellers';
@@ -13,6 +13,7 @@ const App = () => {
   return (
     <div>
       <Navbar />
+      <Home />
       {/* <Home />
       <Search />
       <Trending />
